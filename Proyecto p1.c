@@ -1,10 +1,19 @@
 #include <stdio.h>
+main (){
+float num1;
+float num2;
+float num3;
+float resultado;
 
-int main() {
-    // UwU Programa Zip 1: Suma de tres numeros
-    float a, b, c;
-    printf("Este programa Zip suma tres numeros :3\n");
-    printf("Escribe tres números separados por espacio: ");
-    scanf("%f %f %f", &a, &b, &c);
-    printf("El resultado Zipziano es: %.2f\n", a + b + c);
+printf("Ingresa tu primer numero");
+scanf ("%f", &num1);
+printf("Ingresa tu segundo numero");
+scanf ("%f", &num2);
+printf("Ingresa tu tercer numero");
+scanf ("%f", &num3);
+
+resultado= num1 + num2 + num3;
+
+  printf("Resultado:%f", resultado);
+
 }
